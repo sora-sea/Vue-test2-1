@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
+    <div id="nav">
+      <button id="backbtn"><router-link to="/">前へ戻る</router-link></button>
+      <button><router-link to="/about">次へ進む</router-link></button>
+    </div>
   </div>
 </template>
 
