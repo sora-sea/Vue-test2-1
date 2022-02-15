@@ -6,13 +6,14 @@
     <label><input type="radio" name="gender" v-model="picked" value="女性">女性</label>
     <p>生年月日</p>
     <p><input type="date"></p>
+  <button><router-link to="/about">次へ進む</router-link></button>
   </div>
 </template>
 
 <style>
-#backbtn {display: none;}
+
 </style>
 
 <script>
-// @ is an alias to /src
+
 </script>

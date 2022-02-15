@@ -2,8 +2,6 @@
   <div id="app">
     <router-view/>
     <div id="nav">
-      <button id="backbtn"><router-link to="/">前へ戻る</router-link></button>
-      <button><router-link to="/about">次へ進む</router-link></button>
     </div>
   </div>
 </template>
@@ -29,4 +27,6 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+button {margin: 0 30px;}
 </style>
