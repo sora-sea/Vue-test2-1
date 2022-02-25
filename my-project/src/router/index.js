@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Text from '../views/Text.vue'
 
 Vue.use(VueRouter)
 
@@ -22,7 +21,7 @@ const routes = [
   {
     path: '/text',
     name: 'Text',
-    component: Text
+    component: () => import( '../views/Text.vue')
   }
 ]
 
