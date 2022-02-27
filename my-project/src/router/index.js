@@ -21,7 +21,7 @@ const routes = [
   {
     path: '/text',
     name: 'Text',
-    component: () => import( '../views/Text.vue')
+    component: () => import('../views/Text.vue')
   }
 ]
 
