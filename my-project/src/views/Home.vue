@@ -1,18 +1,11 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>お客様の情報を入力してください</h1>
+    <p>性別</p>
+    <label><input type="radio" name="gender" value="男性">男性</label>
+    <label><input type="radio" name="gender" value="女性">女性</label>
+    <p>生年月日</p>
+    <p><input type="date"></p>
+  <button><router-link to="/about">次へ進む</router-link></button>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
-</script>
