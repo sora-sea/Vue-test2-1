@@ -6,6 +6,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     gender: '',
+    year: '',
+    month: '',
     day: '',
     anser1: '',
     anser2: '',
@@ -16,8 +18,14 @@ export default new Vuex.Store({
     gender (state, gender) {
       state.gender = gender
     },
-    day (state, day) {
-      state.day = day
+    selectyear (state, selectyear) {
+      state.year = selectyear
+    },
+    selectmonth (state, selectmonth) {
+      state.month = selectmonth
+    },
+    selectday (state, selectday) {
+      state.day = selectday
     },
     add (state, add) {
       state.anser1 = add
